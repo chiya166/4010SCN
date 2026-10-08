@@ -1,0 +1,32 @@
+Week 3 Session 2 Test Record
+
+1. Empty vector:
+Tested in count_occurrences.cpp.
+Result: returned 0 safely.
+
+2. Repeated values:
+Vector {4, 7, 4, 2, 4}.
+Searching for 4 returned 3.
+Result: every occurrence was counted.
+
+3. Fixed-seed random generation:
+Seed 4010 produced the same 20 values when run twice.
+Changing the seed changed the sequence.
+
+4. Sorting:
+Ascending: 5 5 9 12 20
+Descending: 20 12 9 5 5
+
+5. Median:
+Odd number of values: median calculated correctly.
+Even number of values: average of the two middle values calculated correctly.
+
+6. Map lookup:
+Lab A -> 24
+Studio -> 18
+Office -> not found
+lab a -> not found because the map is case-sensitive.
+
+7. Testing lesson:
+Testing different inputs helped confirm that the programs handle normal,
+repeated, empty, and missing-data cases correctly.
